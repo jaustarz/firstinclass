@@ -11,14 +11,13 @@
 
 int main()
 {
-    int max_value = 10;
-    time_t t;
-    srand((unsigned) time(&t));
-    int randomnumber = rand() %  max_value + 1;
-
     int input;
     while(input != 3)
     {
+        int max_value = 10;
+        time_t t;
+        srand((unsigned) time(&t));
+        int randomnumber = rand() %  max_value + 1;
         printf("Press 1 to play a game\n");
         printf("Press 2 to change the max number\n");
         printf("Press 3 to quit\n");
