@@ -71,4 +71,5 @@ int main()
             printf("Thanks for playing! Bye!\n");
         }
     }
+    return 0;
 }
